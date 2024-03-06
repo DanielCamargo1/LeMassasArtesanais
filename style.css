@@ -60,7 +60,7 @@
     text-align: center;
   }
 
-  p{
+  .des{
     width: 100%;
     font-size: 30px;
     margin-right:5%;
@@ -103,5 +103,15 @@
     margin: auto;
     padding-top: 20px;
     font-size: 30px;
+  }
+  
+  .produtosItens{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .cardItem{
+    width: 18rem;
   }
   
