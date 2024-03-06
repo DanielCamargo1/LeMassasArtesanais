@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    line-height: auto;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: inherit;
+  }
+  
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  nav {
+    display: flex;
+    padding: 0 10rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #965630;
+    position: fixed;
+  }
+
+  nav img{
+    width: 15%;
+    margin: 4%;
+    
+  }
+
+  nav a{
+    color: aliceblue;
+    margin-left: 20px;
+    font-size: 120%;
+  }
+
+  .imagemHeader{
+    width: 100%;
+  }
+
+  .textoTop{
+    color: #D07C4B;
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    margin-top: -500px;
+    margin-left:32%;
+    text-align: center;
+  }
+
+  h1{
+    width: 100%;
+    font-size: 70px;
+    margin-left:-15px;
+    animation-duration: 3s;
+    animation-name: slide;
+    text-align: center;
+  }
+
+  p{
+    width: 100%;
+    font-size: 30px;
+    margin-right:5%;
+    animation-duration: 3s;
+    animation-name: slide;
+  }
+
+  .txt{
+    margin-left: -60px;
+    align-items: center;
+    text-align: center;
+  }
+
+  @keyframes slide {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  #logo{
+    animation-duration: 2.2s;
+    animation-name: slide;
+  }
+
+  .produtos{
+    margin-top: 30px;
+  }
+
+  h2{
+    color: #965630;
+    border-top: 5px dashed #965630;
+    width: 32%;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  
