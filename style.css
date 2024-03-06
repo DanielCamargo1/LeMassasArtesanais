@@ -137,6 +137,11 @@
       background-color: rgb(123, 192, 55);
       margin: auto;
       margin-bottom: 80px;
+      align-items: baseline;
+      display: flex;
+      flex-direction:row ;
+      align-items: center;
+      gap: 15%;
 
     }
 
@@ -144,6 +149,11 @@
       color: aliceblue;
       font-size: 60%;
       text-align: center;
+    }
+
+    .wpp{
+      width: 13%;
+      margin-left: 2%;
     }
 
 
