@@ -146,7 +146,7 @@
 
     }
 
-    .encomendarItem{
+    .encomendarItem{  
       color: aliceblue;
       font-size: 60%;
       text-align: center;
@@ -155,6 +155,48 @@
     .wpp{
       width: 13%;
       margin-left: 2%;
+    }
+
+    .produtosItensImage{
+      width: 70px;
+      margin-bottom: 40%;
+    }
+
+    .contatoItens{
+      display: flex;
+      flex-direction: row;
+      gap: 7%;
+      margin: auto;
+      align-items: center;
+      margin-left:10px ;
+    }
+
+    .wppContato , .instaContato{
+      border: 2px solid #965630;
+      margin: 15%;
+      gap: -10%;
+      padding: 8%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    
+    h5{
+      font-family: "Sofia", coursive;
+      color: #965630;
+      font-size: 130%;
+    }
+
+    .instaContato{
+      margin-left: -10px;
+    }
+
+    .instaContato:hover{
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
+    }
+    .wppContato:hover{
+      box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.432);
     }
 
 
