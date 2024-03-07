@@ -12,6 +12,7 @@
   body {
     width: 100vw;
     overflow-x: hidden;
+    background-color: #f1f1f1;
   }
 
   nav {
@@ -197,6 +198,38 @@
     }
     .wppContato:hover{
       box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.432);
+    }
+
+    .feedbackItens{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 20px;
+      background-color: #ffff;
+      width: 30%;
+      gap:7%;
+    }
+    
+    .verificado{
+      width: 50px;
+    }
+
+    .feedbackTexto{
+      width: 70%;
+      text-align: left;
+    }
+
+    .campoFeedbacks{
+      display: flex;
+      flex-direction: row;
+      gap:2%;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10%;
+    }
+
+    .feedbackItens:hover{
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.308);
     }
 
 
