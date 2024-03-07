@@ -190,7 +190,7 @@
     }
 
     .instaContato{
-      margin-left: -10px;
+      margin-left: -8px;
     }
 
     .instaContato:hover{
@@ -217,6 +217,8 @@
     .feedbackTexto{
       width: 70%;
       text-align: left;
+      font-family: "Sofia", cursive;
+      text-decoration: none;
     }
 
     .campoFeedbacks{
@@ -225,7 +227,8 @@
       gap:2%;
       width: 80%;
       margin: 0 auto;
-      margin-top: 10%;
+      margin-top: 13%;
+      margin-left: 14%;
     }
 
     .feedbackItens:hover{
